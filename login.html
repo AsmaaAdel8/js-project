@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+</head>
+<body>
+    <header>
+        <div id="header" class="container-fluid bg-dark text-center">
+            <div id="title">
+                <img src="./images/logo.jpg" alt="#" class="logo" draggable="false" width="100" height="80" style="border-radius: 50%;">
+               <a href="./home.html"> <h2>Book Store</h2></a>
+            </div><!-- /title -->
+            <div id="sign" style="margin-top: 10px;">
+                <a href="login.html" style="margin-right: 20px;">login</a>
+                <a href="register.html">sign up</a>
+           </div><!-- /sign -->
+        </div><!-- /header -->
+    </header>
+    <main >
+        <div class="shopping-form container-fluid" id="log">
+            <div class="form d-flex">
+                <!-- <img src="./images/logo.jpg" alt=".." draggable="false" width="100" height="100"> -->
+                <div class="inputs d-flex text-center " style="margin: auto;">
+                    <h2 >Login Form</h2>
+                    <div>
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="firsName" id="name" class="py-1 d-inline " required>
+                    </div>
+                    <div>
+                        <i class="fas fa-at"></i>
+                        <input type="email" placeholder="Email" id="email" class=" my-2 py-1 d-inline" required>
+                    </div>
+                    <div>
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="password" id="password" class="mb-2 py-1 d-inline"  required>
+                    </div>
+                    <input type="submit" value="Sgin IN" id="btn">
+                    Do you not have an account <a href="register.html">sign up</a>
+                </div><!-- /inputs -->
+            </div><!-- /form -->
+        </div><!-- /shopping-form -->
+    </main>
+    
+    <script src="./js/login.js" ></script>
+</body>
